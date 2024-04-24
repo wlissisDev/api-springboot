@@ -1,0 +1,25 @@
+POST http://localhost:8080/post
+Content-Type: application/json
+
+{
+    "title":"Falando sobre tudo",
+    "content":"Conteudo sobre tudo nunca é algo solido num é mesmo!?..."
+}
+
+###
+GET http://localhost:8080/post
+
+###
+GET http://localhost:8080/post/64d200ec-5a5c-4312-b56b-15ac83bceb49
+
+###
+DELETE  http://localhost:8080/post/16b015b6-44ae-4f21-bc7e-aab41732c6c7
+
+###
+PUT  http://localhost:8080/post/e538d600-88b9-4663-b6bb-cc98ba61796
+Content-Type: application/json
+
+{
+    "title":"Qualquer coisa",
+    "content":"Conteudo sobre tudo nunca é algo solido num é mesmo!?..."
+}
